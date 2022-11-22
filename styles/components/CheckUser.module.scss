@@ -1,0 +1,82 @@
+.AddUser {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 95%;
+
+}
+.Info {
+    display: flex;
+    justify-content: space-around;
+} 
+.KeyInfo, .ValueInfo {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+}
+.KeyInfo {
+    margin-top: 39px;
+}
+.ValueInfo {
+    margin-top: 38px;
+}
+.KeyInfo label {
+    margin-bottom: 24px;
+    color: #747474;
+}
+.ValueInfo label {
+    font-weight: 700;
+    width: 228px;
+    height: 28px;
+    margin-bottom: 17px;
+}
+.Buttons {
+    align-self: flex-end;
+    margin-right: 8px;
+}
+.Buttons button {
+    width: 72px;
+    height: 19px;
+    margin-right: 7px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.Buttons button:nth-child(1) {
+    background-color: #FF5050;
+}
+.Buttons button:nth-child(2) {
+    background-color: #57EFDD;
+}
+.decideCheck {
+    display: flex;
+    flex-direction: column;
+    margin-top: 34px;
+}
+.decideCheck div {
+    margin-bottom: 25px;
+}
+.decideCheck img {
+    border-radius: 20px;
+    transition: .3s;
+}
+.decideCheck img:nth-child(2) {
+    margin-left: 5px;
+}
+.AccFirst img:nth-child(2), 
+.AccLast img:nth-child(2), 
+.AccPhone img:nth-child(2), 
+.AccId img:nth-child(2), 
+.AccBirth img:nth-child(2), 
+.AccAdd img:nth-child(2),
+.AccPic img:nth-child(2),
+.RejFirst img:nth-child(1),
+.RejLast img:nth-child(1),
+.RejPhone img:nth-child(1),
+.RejId img:nth-child(1),
+.RejBirth img:nth-child(1),
+.RejAdd img:nth-child(1),
+.RejPic img:nth-child(1) {
+    transform: scale(1.7);
+}

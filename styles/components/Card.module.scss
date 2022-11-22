@@ -1,0 +1,103 @@
+.Card {
+    width: 333px;
+    height: 148px;
+    background-color: #E3E3E3;
+    border: 0.5px solid #C2C0C0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.CardTools {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 63px;
+}
+.CardTools div {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.CardTools input {
+    border-radius: 3px;
+    accent-color: #fff;
+    margin-right: 4px;
+    margin-top: 4px;
+}
+.EditButton{
+    width: 14px;
+    height: 14px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    margin-right: 8px;  
+    margin-top: 4px;
+    cursor: pointer;
+}
+.CardDetails {
+    display: flex;
+    width: 100%;
+}
+.CardDetails img {
+    width: 102px;
+    height: 129px;
+    margin: 8px 8px 11px 8px;
+    border-radius: 5px;
+}
+.CardInfo {
+    display: flex;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 21px;
+    justify-content: space-between;
+    width: 150px;
+}
+.CardInfo span, .CardInfo img {
+    background-color: white;
+    margin: 0;
+    width: 14px;
+    height: 14px;
+}
+.CardInfo span {
+    margin-top: 10px;
+    margin-right: 38px !important;
+}
+.CardInfo div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.CardInfo div:nth-child(1) {
+    margin-bottom: 15px;
+}
+.CardInfo div:nth-child(2) {
+    margin-bottom: 43px;
+}
+.CardInfo div p {
+    margin: 0;
+    align-self: flex-start;
+    font-weight: 400;
+    color: #747474;
+    font-size: 12px;
+}
+.CardInfo div label {
+    align-self: flex-start;
+    font-weight: 700;
+    color: #747474;
+}
+.CheckButton {
+    width: 72px;
+    height: 19px;
+    border: none;
+    background-color: #57EFDD;
+    color: white;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    cursor: pointer;    
+    align-self: flex-end;
+    border-radius: 5px;
+}
